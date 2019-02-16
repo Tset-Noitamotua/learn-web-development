@@ -1,0 +1,19 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "I am trying parcel as alterntive to webpack!",
+  "main": "index.html",
+  "repository": "localhost",
+  "author": "wlad",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "pug": "^2.0.3",
+    "sass": "^1.16.1"
+  },
+  "scripts": {
+    "start": "parcel src/pug/index.pug --open",
+    "build": "parcel build src/pug/index.pug"
+  },
+  "private": "test"
+}
